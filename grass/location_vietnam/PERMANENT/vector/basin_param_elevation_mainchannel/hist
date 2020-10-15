@@ -1,0 +1,3 @@
+COMMAND: r.to.vect --verbose input="basin_param_elevation_mainchannel_thin" output="basin_param_elevation_mainchannel" type="line" column="value"
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:40:09 2020

@@ -1,0 +1,3 @@
+COMMAND: r.to.vect -v input="basin_param_elevation_ord_1_thin" output="basin_param_elevation_ord_1" type="line" column="value"
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:40:27 2020

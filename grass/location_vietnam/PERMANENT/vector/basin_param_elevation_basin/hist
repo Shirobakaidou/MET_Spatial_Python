@@ -1,0 +1,11 @@
+COMMAND: r.to.vect -s -v input="basin_param_elevation_basin" output="basin_param_elevation_basin" type="area" column="value"
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:40:04 2020
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcolumn map=basin_param_elevation_basin 'columns=area double precision'
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:40:04 2020
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcolumn map=basin_param_elevation_basin 'columns=perimeter double precision'
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:40:04 2020

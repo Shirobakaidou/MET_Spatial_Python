@@ -1,0 +1,7 @@
+COMMAND: r.to.vect --verbose -v input="basin_param_r_elevation_mainchannel_dim_thin" output="basin_param_r_elevation_mainchannel_dim" type="line" column="value"
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:25:16 2020
+---------------------------------------------------------------------------------
+COMMAND: v.to.points input="basin_param_r_elevation_mainchannel_dim" layer="1" type="line" output="basin_param_r_elevation_mainchannel_dim_point" dmax=100
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:25:16 2020

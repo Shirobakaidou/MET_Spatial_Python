@@ -1,0 +1,2 @@
+1/basin_param_r_elevation_mainchannel_dim_point_1|basin_param_r_elevation_mainchannel_dim_point_1|cat|$GISDBASE/$LOCATION_NAME/$MAPSET/sqlite/sqlite.db|sqlite
+2/basin_param_r_elevation_mainchannel_dim_point_2|basin_param_r_elevation_mainchannel_dim_point_2|cat|$GISDBASE/$LOCATION_NAME/$MAPSET/sqlite/sqlite.db|sqlite

@@ -1,0 +1,15 @@
+COMMAND: r.stream.snap input="basin_param_elevation_outlet" output="basin_param_elevation_outlet_snap" stream_rast="basin_param_elevation_stream_e" threshold=-1 radius=30 memory=300
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:40:02 2020
+---------------------------------------------------------------------------------
+COMMAND: v.db.connect --quiet map="basin_param_elevation_outlet_snap" driver="sqlite" database="$GISDBASE/$LOCATION_NAME/$MAPSET/sqlite/sqlite.db" table="basin_param_elevation_outlet_snap" key="cat" layer="1" separator="pipe"
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:40:09 2020
+---------------------------------------------------------------------------------
+COMMAND: v.db.addtable map=basin_param_elevation_outlet_snap
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:40:09 2020
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcolumn map=basin_param_elevation_outlet_snap 'columns=x double precision,y double precision'
+GISDBASE: /home/shirobakaidou/eagle/MET_Spatial_Python/grass
+LOCATION: location_vietnam MAPSET: PERMANENT USER: shirobakaidou DATE: Thu Oct 15 22:40:09 2020
